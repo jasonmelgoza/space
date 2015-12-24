@@ -9,6 +9,13 @@ Jason Melgoza
 
 http://jasonmelgoza.github.io/space
 
+## Dev Server
+
+```bash
+npm i
+npm run serve
+```
+
 ## License
 
 The MIT License (MIT)
