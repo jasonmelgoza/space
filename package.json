@@ -1,0 +1,26 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "A dead simple email template.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmelgoza/space.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Jason Melgoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonmelgoza/space/issues"
+  },
+  "homepage": "https://github.com/jasonmelgoza/space#readme",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  },
+  "scripts": {
+    "serve": "./bin/http-server"
+  }
+}
