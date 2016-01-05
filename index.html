@@ -78,17 +78,13 @@
             padding: 0;
             width: 100% !important;
         }
-        /* iOS BLUE LINKS */
+        /* Remove iOS blue links */
 
-        .appleBody a {
-            color: #68440a;
-            text-decoration: none;
+        .ios-text a {
+            color: inherit !important;
+            text-decoration: none !important;
         }
 
-        .appleFooter a {
-            color: #999999;
-            text-decoration: none;
-        }
         /* MOBILE STYLES */
 
         @media screen and (max-width: 525px) {
@@ -211,7 +207,7 @@
                                                 <td class="padding-copy" align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #444444;">Main Headline</td>
                                             </tr>
                                             <tr>
-                                                <td class="padding-copy" align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.</td>
+                                                <td class="padding-copy" align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;"><span class="ios-text">July 4, 2017</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.</td>
                                             </tr>
                                         </table>
                                     </td>
@@ -256,7 +252,7 @@
                             <table class="responsive-table" width="500" border="0" cellspacing="0" cellpadding="0" align="center">
                                 <tr>
                                     <td class="padding-copy" align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
-                                        <span class="appleFooter" style="color:#888888;">Footer Info</span>
+                                        <span class="ios-text" style="color:#888888;">Footer Info</span>
                                         <br><a class="original-only" style="color: #888888; text-decoration: none;">Unsubscribe</a>
                                         <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #777777;">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a style="color: #888888; text-decoration: none;">View this email in your browser</a>
                                     </td>
